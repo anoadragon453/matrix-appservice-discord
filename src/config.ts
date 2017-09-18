@@ -11,9 +11,11 @@ export class DiscordBridgeConfig {
 class DiscordBridgeConfigBridge {
   public domain: string;
   public homeserverUrl: string;
+  public presenceInterval: number = 500;
   public disablePresence: boolean;
   public disableTypingNotifications: boolean;
   public disableDiscordMentions: boolean;
+  public disableDeletionForwarding: boolean;
 }
 
 class DiscordBridgeConfigDatabase {

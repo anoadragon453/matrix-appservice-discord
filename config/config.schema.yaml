@@ -10,11 +10,15 @@ properties:
             type: "string"
           homeserverUrl:
             type: "string"
+          presenceInterval:
+            type: "number"
           disablePresence:
             type: "boolean"
           disableTypingNotifications:
             type: "boolean"
           disableDiscordMentions:
+            type: "boolean"
+          disableDeletionForwarding:
             type: "boolean"
     auth:
         type: "object"
